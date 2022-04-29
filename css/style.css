@@ -237,6 +237,14 @@ ul{
     color: white;
 }
 
+.wave {
+    filter: invert(100%) sepia(75%) saturate(72%) hue-rotate(214deg) brightness(112%) contrast(93%);
+}
+
+.specular {
+    transform: rotate(180deg);
+}
+
 /* FOOTER */
 
 footer {

@@ -5,10 +5,19 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 /* COMMON */
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -18,16 +27,30 @@
     align-items: center;
 }
 
+h1, h2 {
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    margin: 0 10px;
+}
+
 /* HEADER */
 
 .header-top {
-    background-color: #add8e6;
+    background-color: #255ee9;
     padding: 20px
 }
 
 .content-area {
-    background-color: goldenrod;
-    width: 70%;
+    background-color: #255ee9;
+    width: 90%;
     
 }
 
@@ -41,7 +64,6 @@
 /* menu */
 
 .menu {
-    border: 1px dotted black;
     width: 50%;
 }
 
@@ -51,37 +73,84 @@ ul{
 
 .menu a {
     text-decoration: none;
-    color: inherit
+    color: white;
 }
 
 .menu li {
     padding: 0 10px;
 }
 
-/* logo - login */
+/* logo */
 
 .logo, .login {
-    border: 1px dotted black;
     padding: 10px;
     width: 25%;
 }
 
+.logo-img {
+    width: 130px;
+}
+
+/* login */
+
 .login {
     text-align: right;
+    justify-content: flex-end;
 }
+
+.btn {
+    background-color: white;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+
+}
+
 
 /* bottom header */
 
 .jumbotron {
-    background-color: #00008b;
     padding: 30px 0;
+    height: 500px;
+    background-color: white;
+    background-image: url('../img/jumbo.png'); 
+    background-size: cover;   
 }
 
 .jumbo-content {
     height: 300px;
-    background-color: #ee82ee;
-    border: 1px dotted black;
     width: 50%;
+    
+}
+
+.white-p {
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    padding: 10px 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* buttons */
+
+.header-buttons {
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.download-btn {
+    padding: 10px 20px;
+}
+
+.header-btn-text {
+    font-size: 17px;
+}
+
+.open-in-browser {
+    padding: 10px 20px;
+    background-color: #23272a;
+    color: white;
 }
 
 /* MAIN */
@@ -169,7 +238,7 @@ hr {
     padding: 10px 0;
 }
 
-.logo-bottom, .btn {
+.logo-bottom {
     border: 1px dotted black;
     padding: 10px;
     background-color: #ffb6c1;

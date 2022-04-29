@@ -37,8 +37,27 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .btn{
     margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 /* HEADER */
@@ -156,34 +175,57 @@ ul{
 /* MAIN */
 
 .flex-white {
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 .big-box {
-    background-color: #1e90ff;
-    width: 60%;
-    height: 400px;
+    padding-left: 30px;
+    width: 60%;  
+}
+
+.padding-onright {
+    padding-right: 30px;
 }
 
 .small-box {
-    background-color: #ffc0cb;
     width: 40%;
-    height: 400px;
-}
-
-.big-box, .small-box {
-    border: 1px dotted black;
+    padding: 20px;
 }
 
 .grey {
-    background-color: #d3d3d3;
+    background-color:  #f6f6f6;
 }
 
 .largecontent {
-    background-color: #228b22;
-    border: 1px dotted black;
-    height: 600px;
     width: 100%;
+    text-align: center;
+}
+
+.largecontent h2 {
+    padding: 20px 20px;
+}
+
+.largecontent p { 
+    padding-top: 20px;
+}
+
+.last-main-section {
+    padding: 30px 0;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 57%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.last-main-section h3 {
+    padding-bottom: 30px;
+}
+.bottom-download-btn {
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: white;
 }
 
 /* FOOTER */
